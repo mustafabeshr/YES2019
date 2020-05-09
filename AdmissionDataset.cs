@@ -1,0 +1,3 @@
+﻿namespace YES2015
+{
+}

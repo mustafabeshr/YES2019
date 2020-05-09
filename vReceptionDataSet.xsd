@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="vReceptionDataSet" targetNamespace="http://tempuri.org/vReceptionDataSet.xsd" xmlns:mstns="http://tempuri.org/vReceptionDataSet.xsd" xmlns="http://tempuri.org/vReceptionDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=.;Initial Catalog=YES2015;Persist Security Info=True;User ID=sa" IsAppSettingsProperty="false" Modifier="Assembly" Name="mustafabeshrpc.dbo" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_ReceptionTableAdapter" GeneratorDataComponentClassName="v_ReceptionTableAdapter" Name="v_Reception" UserDataComponentName="v_ReceptionTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="mustafabeshrpc.dbo" DbObjectName="dbo.v_Reception" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Entry_doc_no, Entry_date, Cert_No, share_qty, holder_class, holder_name, id_type, id_no, id_date, entry_card_no, note, id_place, userid, reception_type, id_type_name, username, reception_type_name, holder_class_name, CertsCount, TotalSharesQty, TotalHolderCertCount, TotalHolderSharesQty, TotalHolderDelagateSCertCount, TotalHolderDelagateSharesQty, TotalOrgDelegateCertCount, TotalOrgDelegateSharesQty, status, status_name, statustime, statususer, postusername FROM dbo.v_Reception</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Entry_doc_no" DataSetColumn="Entry_doc_no" />
+              <Mapping SourceColumn="Entry_date" DataSetColumn="Entry_date" />
+              <Mapping SourceColumn="Cert_No" DataSetColumn="Cert_No" />
+              <Mapping SourceColumn="share_qty" DataSetColumn="share_qty" />
+              <Mapping SourceColumn="holder_class" DataSetColumn="holder_class" />
+              <Mapping SourceColumn="holder_name" DataSetColumn="holder_name" />
+              <Mapping SourceColumn="id_type" DataSetColumn="id_type" />
+              <Mapping SourceColumn="id_no" DataSetColumn="id_no" />
+              <Mapping SourceColumn="id_date" DataSetColumn="id_date" />
+              <Mapping SourceColumn="entry_card_no" DataSetColumn="entry_card_no" />
+              <Mapping SourceColumn="note" DataSetColumn="note" />
+              <Mapping SourceColumn="id_place" DataSetColumn="id_place" />
+              <Mapping SourceColumn="userid" DataSetColumn="userid" />
+              <Mapping SourceColumn="reception_type" DataSetColumn="reception_type" />
+              <Mapping SourceColumn="id_type_name" DataSetColumn="id_type_name" />
+              <Mapping SourceColumn="username" DataSetColumn="username" />
+              <Mapping SourceColumn="reception_type_name" DataSetColumn="reception_type_name" />
+              <Mapping SourceColumn="holder_class_name" DataSetColumn="holder_class_name" />
+              <Mapping SourceColumn="CertsCount" DataSetColumn="CertsCount" />
+              <Mapping SourceColumn="TotalSharesQty" DataSetColumn="TotalSharesQty" />
+              <Mapping SourceColumn="TotalHolderCertCount" DataSetColumn="TotalHolderCertCount" />
+              <Mapping SourceColumn="TotalHolderSharesQty" DataSetColumn="TotalHolderSharesQty" />
+              <Mapping SourceColumn="TotalHolderDelagateSCertCount" DataSetColumn="TotalHolderDelagateSCertCount" />
+              <Mapping SourceColumn="TotalHolderDelagateSharesQty" DataSetColumn="TotalHolderDelagateSharesQty" />
+              <Mapping SourceColumn="TotalOrgDelegateCertCount" DataSetColumn="TotalOrgDelegateCertCount" />
+              <Mapping SourceColumn="TotalOrgDelegateSharesQty" DataSetColumn="TotalOrgDelegateSharesQty" />
+              <Mapping SourceColumn="status" DataSetColumn="status" />
+              <Mapping SourceColumn="status_name" DataSetColumn="status_name" />
+              <Mapping SourceColumn="statustime" DataSetColumn="statustime" />
+              <Mapping SourceColumn="statususer" DataSetColumn="statususer" />
+              <Mapping SourceColumn="postusername" DataSetColumn="postusername" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="vReceptionDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="vReceptionDataSet" msprop:Generator_UserDSName="vReceptionDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="v_Reception" msprop:Generator_TableClassName="v_ReceptionDataTable" msprop:Generator_TableVarName="tablev_Reception" msprop:Generator_TablePropName="v_Reception" msprop:Generator_RowDeletingName="v_ReceptionRowDeleting" msprop:Generator_RowChangingName="v_ReceptionRowChanging" msprop:Generator_RowEvHandlerName="v_ReceptionRowChangeEventHandler" msprop:Generator_RowDeletedName="v_ReceptionRowDeleted" msprop:Generator_UserTableName="v_Reception" msprop:Generator_RowChangedName="v_ReceptionRowChanged" msprop:Generator_RowEvArgName="v_ReceptionRowChangeEvent" msprop:Generator_RowClassName="v_ReceptionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Entry_doc_no" msprop:Generator_ColumnVarNameInTable="columnEntry_doc_no" msprop:Generator_ColumnPropNameInRow="Entry_doc_no" msprop:Generator_ColumnPropNameInTable="Entry_doc_noColumn" msprop:Generator_UserColumnName="Entry_doc_no" type="xs:int" />
+              <xs:element name="Entry_date" msprop:Generator_ColumnVarNameInTable="columnEntry_date" msprop:Generator_ColumnPropNameInRow="Entry_date" msprop:Generator_ColumnPropNameInTable="Entry_dateColumn" msprop:Generator_UserColumnName="Entry_date" type="xs:dateTime" />
+              <xs:element name="Cert_No" msprop:Generator_ColumnVarNameInTable="columnCert_No" msprop:Generator_ColumnPropNameInRow="Cert_No" msprop:Generator_ColumnPropNameInTable="Cert_NoColumn" msprop:Generator_UserColumnName="Cert_No" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="share_qty" msprop:Generator_ColumnVarNameInTable="columnshare_qty" msprop:Generator_ColumnPropNameInRow="share_qty" msprop:Generator_ColumnPropNameInTable="share_qtyColumn" msprop:Generator_UserColumnName="share_qty" type="xs:int" />
+              <xs:element name="holder_class" msprop:Generator_ColumnVarNameInTable="columnholder_class" msprop:Generator_ColumnPropNameInRow="holder_class" msprop:Generator_ColumnPropNameInTable="holder_classColumn" msprop:Generator_UserColumnName="holder_class" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="holder_name" msprop:Generator_ColumnVarNameInTable="columnholder_name" msprop:Generator_ColumnPropNameInRow="holder_name" msprop:Generator_ColumnPropNameInTable="holder_nameColumn" msprop:Generator_UserColumnName="holder_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id_type" msprop:Generator_ColumnVarNameInTable="columnid_type" msprop:Generator_ColumnPropNameInRow="id_type" msprop:Generator_ColumnPropNameInTable="id_typeColumn" msprop:Generator_UserColumnName="id_type" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id_no" msprop:Generator_ColumnVarNameInTable="columnid_no" msprop:Generator_ColumnPropNameInRow="id_no" msprop:Generator_ColumnPropNameInTable="id_noColumn" msprop:Generator_UserColumnName="id_no" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id_date" msprop:Generator_ColumnVarNameInTable="columnid_date" msprop:Generator_ColumnPropNameInRow="id_date" msprop:Generator_ColumnPropNameInTable="id_dateColumn" msprop:Generator_UserColumnName="id_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="entry_card_no" msprop:Generator_ColumnVarNameInTable="columnentry_card_no" msprop:Generator_ColumnPropNameInRow="entry_card_no" msprop:Generator_ColumnPropNameInTable="entry_card_noColumn" msprop:Generator_UserColumnName="entry_card_no" type="xs:int" minOccurs="0" />
+              <xs:element name="note" msprop:Generator_ColumnVarNameInTable="columnnote" msprop:Generator_ColumnPropNameInRow="note" msprop:Generator_ColumnPropNameInTable="noteColumn" msprop:Generator_UserColumnName="note" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id_place" msprop:Generator_ColumnVarNameInTable="columnid_place" msprop:Generator_ColumnPropNameInRow="id_place" msprop:Generator_ColumnPropNameInTable="id_placeColumn" msprop:Generator_UserColumnName="id_place" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="userid" msprop:Generator_ColumnVarNameInTable="columnuserid" msprop:Generator_ColumnPropNameInRow="userid" msprop:Generator_ColumnPropNameInTable="useridColumn" msprop:Generator_UserColumnName="userid" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="reception_type" msprop:Generator_ColumnVarNameInTable="columnreception_type" msprop:Generator_ColumnPropNameInRow="reception_type" msprop:Generator_ColumnPropNameInTable="reception_typeColumn" msprop:Generator_UserColumnName="reception_type" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id_type_name" msprop:Generator_ColumnVarNameInTable="columnid_type_name" msprop:Generator_ColumnPropNameInRow="id_type_name" msprop:Generator_ColumnPropNameInTable="id_type_nameColumn" msprop:Generator_UserColumnName="id_type_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="username" msprop:Generator_ColumnVarNameInTable="columnusername" msprop:Generator_ColumnPropNameInRow="username" msprop:Generator_ColumnPropNameInTable="usernameColumn" msprop:Generator_UserColumnName="username" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="reception_type_name" msprop:Generator_ColumnVarNameInTable="columnreception_type_name" msprop:Generator_ColumnPropNameInRow="reception_type_name" msprop:Generator_ColumnPropNameInTable="reception_type_nameColumn" msprop:Generator_UserColumnName="reception_type_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="holder_class_name" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnholder_class_name" msprop:Generator_ColumnPropNameInRow="holder_class_name" msprop:Generator_ColumnPropNameInTable="holder_class_nameColumn" msprop:Generator_UserColumnName="holder_class_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CertsCount" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCertsCount" msprop:Generator_ColumnPropNameInRow="CertsCount" msprop:Generator_ColumnPropNameInTable="CertsCountColumn" msprop:Generator_UserColumnName="CertsCount" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalSharesQty" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalSharesQty" msprop:Generator_ColumnPropNameInRow="TotalSharesQty" msprop:Generator_ColumnPropNameInTable="TotalSharesQtyColumn" msprop:Generator_UserColumnName="TotalSharesQty" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalHolderCertCount" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalHolderCertCount" msprop:Generator_ColumnPropNameInRow="TotalHolderCertCount" msprop:Generator_ColumnPropNameInTable="TotalHolderCertCountColumn" msprop:Generator_UserColumnName="TotalHolderCertCount" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalHolderSharesQty" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalHolderSharesQty" msprop:Generator_ColumnPropNameInRow="TotalHolderSharesQty" msprop:Generator_ColumnPropNameInTable="TotalHolderSharesQtyColumn" msprop:Generator_UserColumnName="TotalHolderSharesQty" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalHolderDelagateSCertCount" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalHolderDelagateSCertCount" msprop:Generator_ColumnPropNameInRow="TotalHolderDelagateSCertCount" msprop:Generator_ColumnPropNameInTable="TotalHolderDelagateSCertCountColumn" msprop:Generator_UserColumnName="TotalHolderDelagateSCertCount" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalHolderDelagateSharesQty" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalHolderDelagateSharesQty" msprop:Generator_ColumnPropNameInRow="TotalHolderDelagateSharesQty" msprop:Generator_ColumnPropNameInTable="TotalHolderDelagateSharesQtyColumn" msprop:Generator_UserColumnName="TotalHolderDelagateSharesQty" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalOrgDelegateCertCount" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalOrgDelegateCertCount" msprop:Generator_ColumnPropNameInRow="TotalOrgDelegateCertCount" msprop:Generator_ColumnPropNameInTable="TotalOrgDelegateCertCountColumn" msprop:Generator_UserColumnName="TotalOrgDelegateCertCount" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalOrgDelegateSharesQty" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnTotalOrgDelegateSharesQty" msprop:Generator_ColumnPropNameInRow="TotalOrgDelegateSharesQty" msprop:Generator_ColumnPropNameInTable="TotalOrgDelegateSharesQtyColumn" msprop:Generator_UserColumnName="TotalOrgDelegateSharesQty" type="xs:int" minOccurs="0" />
+              <xs:element name="status" msprop:Generator_ColumnVarNameInTable="columnstatus" msprop:Generator_ColumnPropNameInRow="status" msprop:Generator_ColumnPropNameInTable="statusColumn" msprop:Generator_UserColumnName="status">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="status_name" msprop:Generator_ColumnVarNameInTable="columnstatus_name" msprop:Generator_ColumnPropNameInRow="status_name" msprop:Generator_ColumnPropNameInTable="status_nameColumn" msprop:Generator_UserColumnName="status_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="statustime" msprop:Generator_ColumnVarNameInTable="columnstatustime" msprop:Generator_ColumnPropNameInRow="statustime" msprop:Generator_ColumnPropNameInTable="statustimeColumn" msprop:Generator_UserColumnName="statustime" type="xs:dateTime" />
+              <xs:element name="statususer" msprop:Generator_ColumnVarNameInTable="columnstatususer" msprop:Generator_ColumnPropNameInRow="statususer" msprop:Generator_ColumnPropNameInTable="statususerColumn" msprop:Generator_UserColumnName="statususer" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="postusername" msprop:Generator_ColumnVarNameInTable="columnpostusername" msprop:Generator_ColumnPropNameInRow="postusername" msprop:Generator_ColumnPropNameInTable="postusernameColumn" msprop:Generator_UserColumnName="postusername" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:v_Reception" />
+      <xs:field xpath="mstns:Entry_doc_no" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

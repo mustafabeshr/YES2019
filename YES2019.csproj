@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7AE73DF-3B71-4627-B035-F2F8AA3558F9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YES2015</RootNamespace>
+    <AssemblyName>YES2015</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>\\12.0.0.1\app\</InstallUrl>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo8.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>44C10C04CA6C059D4A84968F0BFD3E9F46F205B8</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>YES2015_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\..\..\Tools\Metro Controls\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.900.148\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdmissionDataset.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdmissionDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AdmissionDS.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdmissionDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="appcode\Config.cs" />
+    <Compile Include="appcode\Db.cs" />
+    <Compile Include="appcode\Security.cs" />
+    <Compile Include="appcode\UserInfo.cs" />
+    <Compile Include="appcode\Utility.cs" />
+    <Compile Include="AttendanceDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AttendanceDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Dg_ComfirmMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Dg_ComfirmMessage.Designer.cs">
+      <DependentUpon>Dg_ComfirmMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Dg_Error.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Dg_Error.Designer.cs">
+      <DependentUpon>Dg_Error.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Dg_Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Dg_Info.Designer.cs">
+      <DependentUpon>Dg_Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Dg_InfoMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Dg_InfoMessage.Designer.cs">
+      <DependentUpon>Dg_InfoMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\Dg_Warning.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\Dg_Warning.Designer.cs">
+      <DependentUpon>Dg_Warning.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EntireReceptionDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EntireReceptionDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_AttendanceInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_AttendanceInfo.Designer.cs">
+      <DependentUpon>frm_AttendanceInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_CandCertChecking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_CandCertChecking.Designer.cs">
+      <DependentUpon>frm_CandCertChecking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_CandidateApprov.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_CandidateApprov.Designer.cs">
+      <DependentUpon>frm_CandidateApprov.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_CandidateQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_CandidateQuery.Designer.cs">
+      <DependentUpon>frm_CandidateQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_ChangePassword.Designer.cs">
+      <DependentUpon>frm_ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_Dashboard.Designer.cs">
+      <DependentUpon>frm_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_DlgCompanyFounder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_DlgCompanyFounder.Designer.cs">
+      <DependentUpon>frm_DlgCompanyFounder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_DlgReception.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_DlgReception.Designer.cs">
+      <DependentUpon>frm_DlgReception.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_DlgReceptionQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_DlgReceptionQuery.Designer.cs">
+      <DependentUpon>frm_DlgReceptionQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_HolderSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_HolderSearch.Designer.cs">
+      <DependentUpon>frm_HolderSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_NewCandidate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_NewCandidate.Designer.cs">
+      <DependentUpon>frm_NewCandidate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_PostDlgReception.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_PostDlgReception.Designer.cs">
+      <DependentUpon>frm_PostDlgReception.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_PrintVote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_PrintVote.Designer.cs">
+      <DependentUpon>frm_PrintVote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_reception.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_reception.Designer.cs">
+      <DependentUpon>frm_reception.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_Report.Designer.cs">
+      <DependentUpon>frm_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_RoleItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_RoleItem.Designer.cs">
+      <DependentUpon>frm_RoleItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_shareholders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_shareholders.Designer.cs">
+      <DependentUpon>frm_shareholders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_ShowCandidates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_ShowCandidates.Designer.cs">
+      <DependentUpon>frm_ShowCandidates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_test.Designer.cs">
+      <DependentUpon>frm_test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_UserQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_UserQuery.Designer.cs">
+      <DependentUpon>frm_UserQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_users.Designer.cs">
+      <DependentUpon>frm_users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frm_VotePaperQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frm_VotePaperQuery.Designer.cs">
+      <DependentUpon>frm_VotePaperQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEnc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEnc.Designer.cs">
+      <DependentUpon>frmEnc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReceptionDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReceptionDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="VoteDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VoteDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="YES2015DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YES2015DataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="bin\Debug\Reports\AgentAdmission.rdlc" />
+    <EmbeddedResource Include="bin\Debug\Reports\AgentAdmission2.rdlc" />
+    <EmbeddedResource Include="bin\Debug\Reports\AgentAdmit.rdlc" />
+    <EmbeddedResource Include="bin\Debug\Reports\AgentSummary.rdlc" />
+    <EmbeddedResource Include="bin\Debug\Reports\AttendanceReport.rdlc" />
+    <EmbeddedResource Include="bin\Debug\Reports\EntireReceptionInfo.rdlc" />
+    <EmbeddedResource Include="bin\Debug\Reports\SelfAdmission.rdlc" />
+    <EmbeddedResource Include="bin\Debug\Reports\VotePaper.rdlc" />
+    <EmbeddedResource Include="Dialogs\Dg_ComfirmMessage.resx">
+      <DependentUpon>Dg_ComfirmMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\Dg_Error.resx">
+      <DependentUpon>Dg_Error.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\Dg_Info.resx">
+      <DependentUpon>Dg_Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\Dg_InfoMessage.resx">
+      <DependentUpon>Dg_InfoMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\Dg_Warning.resx">
+      <DependentUpon>Dg_Warning.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_AttendanceInfo.resx">
+      <DependentUpon>frm_AttendanceInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_CandCertChecking.resx">
+      <DependentUpon>frm_CandCertChecking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_CandidateApprov.resx">
+      <DependentUpon>frm_CandidateApprov.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_CandidateQuery.resx">
+      <DependentUpon>frm_CandidateQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_ChangePassword.resx">
+      <DependentUpon>frm_ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_Dashboard.resx">
+      <DependentUpon>frm_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_DlgCompanyFounder.resx">
+      <DependentUpon>frm_DlgCompanyFounder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_DlgReception.resx">
+      <DependentUpon>frm_DlgReception.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_DlgReceptionQuery.resx">
+      <DependentUpon>frm_DlgReceptionQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_HolderSearch.resx">
+      <DependentUpon>frm_HolderSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_NewCandidate.resx">
+      <DependentUpon>frm_NewCandidate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_PostDlgReception.resx">
+      <DependentUpon>frm_PostDlgReception.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_PrintVote.resx">
+      <DependentUpon>frm_PrintVote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_reception.resx">
+      <DependentUpon>frm_reception.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_Report.resx">
+      <DependentUpon>frm_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_RoleItem.resx">
+      <DependentUpon>frm_RoleItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_shareholders.resx">
+      <DependentUpon>frm_shareholders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_ShowCandidates.resx">
+      <DependentUpon>frm_ShowCandidates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_test.resx">
+      <DependentUpon>frm_test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_UserQuery.resx">
+      <DependentUpon>frm_UserQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_users.resx">
+      <DependentUpon>frm_users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frm_VotePaperQuery.resx">
+      <DependentUpon>frm_VotePaperQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEnc.resx">
+      <DependentUpon>frmEnc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reports\AttendanceReport.rdlc" />
+    <EmbeddedResource Include="Reports\SelfAdmission.rdlc" />
+    <EmbeddedResource Include="Reports\VotePaper.rdlc" />
+    <None Include="AdmissionDataset.xsc">
+      <DependentUpon>AdmissionDataset.xsd</DependentUpon>
+    </None>
+    <None Include="AdmissionDataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AdmissionDataset.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AdmissionDataset.xss">
+      <DependentUpon>AdmissionDataset.xsd</DependentUpon>
+    </None>
+    <None Include="AdmissionDS.xsc">
+      <DependentUpon>AdmissionDS.xsd</DependentUpon>
+    </None>
+    <None Include="AdmissionDS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AdmissionDS.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AdmissionDS.xss">
+      <DependentUpon>AdmissionDS.xsd</DependentUpon>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AttendanceDataSet.xsc">
+      <DependentUpon>AttendanceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AttendanceDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AttendanceDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AttendanceDataSet.xss">
+      <DependentUpon>AttendanceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EntireReceptionDataSet.xsc">
+      <DependentUpon>EntireReceptionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="EntireReceptionDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EntireReceptionDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="EntireReceptionDataSet.xss">
+      <DependentUpon>EntireReceptionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="ReceptionDataSet1.xsc">
+      <DependentUpon>ReceptionDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ReceptionDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReceptionDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReceptionDataSet1.xss">
+      <DependentUpon>ReceptionDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="VoteDataSet.xsc">
+      <DependentUpon>VoteDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="VoteDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VoteDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="VoteDataSet.xss">
+      <DependentUpon>VoteDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="YES2015DataSet.xsc">
+      <DependentUpon>YES2015DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="YES2015DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>YES2015DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="YES2015DataSet.xss">
+      <DependentUpon>YES2015DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="YES2015_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo8.ico" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="images\receprion2.png" />
+    <None Include="images\reception.png" />
+    <Content Include="logo5.ico" />
+    <None Include="Resources\Reception2_Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
