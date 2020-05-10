@@ -129,7 +129,7 @@ namespace YES.Forms
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1175, 51);
+            this.panel1.Size = new System.Drawing.Size(1028, 51);
             this.panel1.TabIndex = 3;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
@@ -140,7 +140,7 @@ namespace YES.Forms
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Tahoma", 10F);
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(582, 13);
+            this.label5.Location = new System.Drawing.Point(509, 13);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(487, 21);
             this.label5.TabIndex = 3;
@@ -149,9 +149,9 @@ namespace YES.Forms
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1128, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(987, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(45, 43);
+            this.pictureBox1.Size = new System.Drawing.Size(39, 43);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -165,9 +165,9 @@ namespace YES.Forms
             this.btn_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_close.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
             this.btn_close.ForeColor = System.Drawing.Color.White;
-            this.btn_close.Location = new System.Drawing.Point(16, 15);
+            this.btn_close.Location = new System.Drawing.Point(14, 15);
             this.btn_close.Name = "btn_close";
-            this.btn_close.Size = new System.Drawing.Size(40, 29);
+            this.btn_close.Size = new System.Drawing.Size(35, 29);
             this.btn_close.TabIndex = 1;
             this.btn_close.TabStop = false;
             this.btn_close.UseVisualStyleBackColor = true;
@@ -180,9 +180,9 @@ namespace YES.Forms
             this.btn_Min.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Min.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
             this.btn_Min.ForeColor = System.Drawing.Color.White;
-            this.btn_Min.Location = new System.Drawing.Point(77, 15);
+            this.btn_Min.Location = new System.Drawing.Point(67, 15);
             this.btn_Min.Name = "btn_Min";
-            this.btn_Min.Size = new System.Drawing.Size(40, 29);
+            this.btn_Min.Size = new System.Drawing.Size(35, 29);
             this.btn_Min.TabIndex = 0;
             this.btn_Min.TabStop = false;
             this.btn_Min.Text = "-";
@@ -196,10 +196,10 @@ namespace YES.Forms
             this.pnl_Item.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pnl_Item.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnl_Item.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnl_Item.Location = new System.Drawing.Point(866, 51);
+            this.pnl_Item.Location = new System.Drawing.Point(757, 51);
             this.pnl_Item.Name = "pnl_Item";
             this.pnl_Item.Padding = new System.Windows.Forms.Padding(0, 13, 0, 0);
-            this.pnl_Item.Size = new System.Drawing.Size(309, 558);
+            this.pnl_Item.Size = new System.Drawing.Size(271, 558);
             this.pnl_Item.TabIndex = 4;
             // 
             // imageList1
@@ -230,7 +230,7 @@ namespace YES.Forms
             this.pnl_reception.Controls.Add(this.btnReceptionSingle);
             this.pnl_reception.Location = new System.Drawing.Point(0, 6);
             this.pnl_reception.Name = "pnl_reception";
-            this.pnl_reception.Size = new System.Drawing.Size(842, 31);
+            this.pnl_reception.Size = new System.Drawing.Size(737, 31);
             this.pnl_reception.TabIndex = 5;
             // 
             // btnReceptionCompany
@@ -242,9 +242,9 @@ namespace YES.Forms
             this.btnReceptionCompany.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReceptionCompany.ImageKey = "receprioncompany.png";
             this.btnReceptionCompany.ImageList = this.imageList2;
-            this.btnReceptionCompany.Location = new System.Drawing.Point(29, 19);
+            this.btnReceptionCompany.Location = new System.Drawing.Point(25, 19);
             this.btnReceptionCompany.Name = "btnReceptionCompany";
-            this.btnReceptionCompany.Size = new System.Drawing.Size(222, 136);
+            this.btnReceptionCompany.Size = new System.Drawing.Size(194, 136);
             this.btnReceptionCompany.TabIndex = 3;
             this.btnReceptionCompany.Text = "استقبال المساهمين الشركات";
             this.btnReceptionCompany.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -301,9 +301,9 @@ namespace YES.Forms
             this.btnReceptionEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReceptionEmployee.ImageKey = "receprionemployee.png";
             this.btnReceptionEmployee.ImageList = this.imageList2;
-            this.btnReceptionEmployee.Location = new System.Drawing.Point(306, 19);
+            this.btnReceptionEmployee.Location = new System.Drawing.Point(268, 19);
             this.btnReceptionEmployee.Name = "btnReceptionEmployee";
-            this.btnReceptionEmployee.Size = new System.Drawing.Size(222, 136);
+            this.btnReceptionEmployee.Size = new System.Drawing.Size(194, 136);
             this.btnReceptionEmployee.TabIndex = 2;
             this.btnReceptionEmployee.Text = "استقبال المساهمين الموظفين";
             this.btnReceptionEmployee.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -319,9 +319,9 @@ namespace YES.Forms
             this.btn_rec_query.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_rec_query.ImageKey = "search9.png";
             this.btn_rec_query.ImageList = this.imageList2;
-            this.btn_rec_query.Location = new System.Drawing.Point(606, 202);
+            this.btn_rec_query.Location = new System.Drawing.Point(530, 202);
             this.btn_rec_query.Name = "btn_rec_query";
-            this.btn_rec_query.Size = new System.Drawing.Size(226, 136);
+            this.btn_rec_query.Size = new System.Drawing.Size(198, 136);
             this.btn_rec_query.TabIndex = 1;
             this.btn_rec_query.Text = "الاستعلام عن الحاضرين";
             this.btn_rec_query.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -337,9 +337,9 @@ namespace YES.Forms
             this.btnReceptionSingle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReceptionSingle.ImageKey = "receprionsingle.png";
             this.btnReceptionSingle.ImageList = this.imageList2;
-            this.btnReceptionSingle.Location = new System.Drawing.Point(638, 19);
+            this.btnReceptionSingle.Location = new System.Drawing.Point(558, 19);
             this.btnReceptionSingle.Name = "btnReceptionSingle";
-            this.btnReceptionSingle.Size = new System.Drawing.Size(190, 136);
+            this.btnReceptionSingle.Size = new System.Drawing.Size(166, 136);
             this.btnReceptionSingle.TabIndex = 0;
             this.btnReceptionSingle.Text = "استقبال المساهمين الافراد";
             this.btnReceptionSingle.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -355,7 +355,7 @@ namespace YES.Forms
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 564);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(866, 45);
+            this.panel2.Size = new System.Drawing.Size(757, 45);
             this.panel2.TabIndex = 6;
             // 
             // label6
@@ -363,11 +363,11 @@ namespace YES.Forms
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(7, 16);
+            this.label6.Location = new System.Drawing.Point(6, 16);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 18);
+            this.label6.Size = new System.Drawing.Size(40, 18);
             this.label6.TabIndex = 9;
-            this.label6.Text = "2018.1";
+            this.label6.Text = "2019";
             // 
             // txtUserInfo
             // 
@@ -375,19 +375,19 @@ namespace YES.Forms
             this.txtUserInfo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUserInfo.Font = new System.Drawing.Font("Tahoma", 11F);
             this.txtUserInfo.ForeColor = System.Drawing.Color.White;
-            this.txtUserInfo.Location = new System.Drawing.Point(9, 11);
+            this.txtUserInfo.Location = new System.Drawing.Point(8, 11);
             this.txtUserInfo.Name = "txtUserInfo";
             this.txtUserInfo.ReadOnly = true;
-            this.txtUserInfo.Size = new System.Drawing.Size(802, 23);
+            this.txtUserInfo.Size = new System.Drawing.Size(702, 23);
             this.txtUserInfo.TabIndex = 6;
             this.txtUserInfo.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(818, 0);
+            this.pictureBox2.Location = new System.Drawing.Point(716, 0);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(45, 43);
+            this.pictureBox2.Size = new System.Drawing.Size(39, 43);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
@@ -408,7 +408,7 @@ namespace YES.Forms
             this.pnl_Container.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnl_Container.Location = new System.Drawing.Point(0, 51);
             this.pnl_Container.Name = "pnl_Container";
-            this.pnl_Container.Size = new System.Drawing.Size(866, 513);
+            this.pnl_Container.Size = new System.Drawing.Size(757, 513);
             this.pnl_Container.TabIndex = 7;
             // 
             // pnl_report
@@ -416,9 +416,9 @@ namespace YES.Forms
             this.pnl_report.BackColor = System.Drawing.Color.White;
             this.pnl_report.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnl_report.Controls.Add(this.btnAgentReport1);
-            this.pnl_report.Location = new System.Drawing.Point(14, 97);
+            this.pnl_report.Location = new System.Drawing.Point(12, 97);
             this.pnl_report.Name = "pnl_report";
-            this.pnl_report.Size = new System.Drawing.Size(837, 28);
+            this.pnl_report.Size = new System.Drawing.Size(733, 28);
             this.pnl_report.TabIndex = 14;
             // 
             // btnAgentReport1
@@ -430,9 +430,9 @@ namespace YES.Forms
             this.btnAgentReport1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgentReport1.ImageKey = "delegate.png";
             this.btnAgentReport1.ImageList = this.imageList2;
-            this.btnAgentReport1.Location = new System.Drawing.Point(542, 24);
+            this.btnAgentReport1.Location = new System.Drawing.Point(474, 24);
             this.btnAgentReport1.Name = "btnAgentReport1";
-            this.btnAgentReport1.Size = new System.Drawing.Size(259, 179);
+            this.btnAgentReport1.Size = new System.Drawing.Size(227, 179);
             this.btnAgentReport1.TabIndex = 2;
             this.btnAgentReport1.Text = "جدول احصائي للتوكيلات";
             this.btnAgentReport1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -444,9 +444,9 @@ namespace YES.Forms
             this.pnl_about.BackColor = System.Drawing.Color.White;
             this.pnl_about.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnl_about.Controls.Add(this.tableLayoutPanel);
-            this.pnl_about.Location = new System.Drawing.Point(9, 209);
+            this.pnl_about.Location = new System.Drawing.Point(8, 209);
             this.pnl_about.Name = "pnl_about";
-            this.pnl_about.Size = new System.Drawing.Size(837, 37);
+            this.pnl_about.Size = new System.Drawing.Size(733, 37);
             this.pnl_about.TabIndex = 13;
             // 
             // tableLayoutPanel
@@ -471,17 +471,17 @@ namespace YES.Forms
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.90521F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 39.81042F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel.Size = new System.Drawing.Size(835, 35);
+            this.tableLayoutPanel.Size = new System.Drawing.Size(731, 35);
             this.tableLayoutPanel.TabIndex = 1;
             // 
             // logoPictureBox
             // 
             this.logoPictureBox.Dock = System.Windows.Forms.DockStyle.Top;
             this.logoPictureBox.Image = ((System.Drawing.Image)(resources.GetObject("logoPictureBox.Image")));
-            this.logoPictureBox.Location = new System.Drawing.Point(563, 3);
+            this.logoPictureBox.Location = new System.Drawing.Point(493, 3);
             this.logoPictureBox.Name = "logoPictureBox";
             this.tableLayoutPanel.SetRowSpan(this.logoPictureBox, 6);
-            this.logoPictureBox.Size = new System.Drawing.Size(269, 27);
+            this.logoPictureBox.Size = new System.Drawing.Size(235, 27);
             this.logoPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.logoPictureBox.TabIndex = 12;
             this.logoPictureBox.TabStop = false;
@@ -491,10 +491,10 @@ namespace YES.Forms
             this.labelProductName.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelProductName.Font = new System.Drawing.Font("Tahoma", 11F);
             this.labelProductName.Location = new System.Drawing.Point(3, 0);
-            this.labelProductName.Margin = new System.Windows.Forms.Padding(8, 0, 3, 0);
+            this.labelProductName.Margin = new System.Windows.Forms.Padding(7, 0, 3, 0);
             this.labelProductName.MaximumSize = new System.Drawing.Size(0, 21);
             this.labelProductName.Name = "labelProductName";
-            this.labelProductName.Size = new System.Drawing.Size(549, 3);
+            this.labelProductName.Size = new System.Drawing.Size(480, 3);
             this.labelProductName.TabIndex = 19;
             this.labelProductName.Text = "نظام ادارة انتخابات الجمعية العمومية";
             this.labelProductName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -504,10 +504,10 @@ namespace YES.Forms
             this.labelVersion.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelVersion.Font = new System.Drawing.Font("Tahoma", 11F);
             this.labelVersion.Location = new System.Drawing.Point(3, 3);
-            this.labelVersion.Margin = new System.Windows.Forms.Padding(8, 0, 3, 0);
+            this.labelVersion.Margin = new System.Windows.Forms.Padding(7, 0, 3, 0);
             this.labelVersion.MaximumSize = new System.Drawing.Size(0, 21);
             this.labelVersion.Name = "labelVersion";
-            this.labelVersion.Size = new System.Drawing.Size(549, 3);
+            this.labelVersion.Size = new System.Drawing.Size(480, 3);
             this.labelVersion.TabIndex = 0;
             this.labelVersion.Text = "الاصدار 2015";
             this.labelVersion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -517,10 +517,10 @@ namespace YES.Forms
             this.labelCopyright.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelCopyright.Font = new System.Drawing.Font("Tahoma", 11F);
             this.labelCopyright.Location = new System.Drawing.Point(3, 6);
-            this.labelCopyright.Margin = new System.Windows.Forms.Padding(8, 0, 3, 0);
+            this.labelCopyright.Margin = new System.Windows.Forms.Padding(7, 0, 3, 0);
             this.labelCopyright.MaximumSize = new System.Drawing.Size(0, 21);
             this.labelCopyright.Name = "labelCopyright";
-            this.labelCopyright.Size = new System.Drawing.Size(549, 3);
+            this.labelCopyright.Size = new System.Drawing.Size(480, 3);
             this.labelCopyright.TabIndex = 21;
             this.labelCopyright.Text = "جميع الحقوق محفوظة";
             this.labelCopyright.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -530,10 +530,10 @@ namespace YES.Forms
             this.labelCompanyName.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelCompanyName.Font = new System.Drawing.Font("Tahoma", 11F);
             this.labelCompanyName.Location = new System.Drawing.Point(3, 9);
-            this.labelCompanyName.Margin = new System.Windows.Forms.Padding(8, 0, 3, 0);
+            this.labelCompanyName.Margin = new System.Windows.Forms.Padding(7, 0, 3, 0);
             this.labelCompanyName.MaximumSize = new System.Drawing.Size(0, 21);
             this.labelCompanyName.Name = "labelCompanyName";
-            this.labelCompanyName.Size = new System.Drawing.Size(549, 6);
+            this.labelCompanyName.Size = new System.Drawing.Size(480, 6);
             this.labelCompanyName.TabIndex = 22;
             this.labelCompanyName.Text = "يمن موبايل للهاتف النقال";
             this.labelCompanyName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -542,12 +542,12 @@ namespace YES.Forms
             // 
             this.textBoxDescription.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxDescription.Location = new System.Drawing.Point(3, 18);
-            this.textBoxDescription.Margin = new System.Windows.Forms.Padding(8, 3, 3, 3);
+            this.textBoxDescription.Margin = new System.Windows.Forms.Padding(7, 3, 3, 3);
             this.textBoxDescription.Multiline = true;
             this.textBoxDescription.Name = "textBoxDescription";
             this.textBoxDescription.ReadOnly = true;
             this.textBoxDescription.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBoxDescription.Size = new System.Drawing.Size(549, 7);
+            this.textBoxDescription.Size = new System.Drawing.Size(480, 7);
             this.textBoxDescription.TabIndex = 23;
             this.textBoxDescription.TabStop = false;
             this.textBoxDescription.Text = "تم إعداد و تصميم النظام من قبل إدارة تقنية المعلومات في الشركة بالتعاون مع إدارة " +
@@ -563,9 +563,9 @@ namespace YES.Forms
             this.pnl_settings.Controls.Add(this.btn_st_ChangePassword);
             this.pnl_settings.Controls.Add(this.btn_st_UserQuery);
             this.pnl_settings.Controls.Add(this.btn_st_users);
-            this.pnl_settings.Location = new System.Drawing.Point(9, 285);
+            this.pnl_settings.Location = new System.Drawing.Point(8, 285);
             this.pnl_settings.Name = "pnl_settings";
-            this.pnl_settings.Size = new System.Drawing.Size(837, 223);
+            this.pnl_settings.Size = new System.Drawing.Size(733, 223);
             this.pnl_settings.TabIndex = 12;
             // 
             // btnAssignPrinter
@@ -577,9 +577,9 @@ namespace YES.Forms
             this.btnAssignPrinter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAssignPrinter.ImageKey = "printer2.png";
             this.btnAssignPrinter.ImageList = this.imageList2;
-            this.btnAssignPrinter.Location = new System.Drawing.Point(151, 184);
+            this.btnAssignPrinter.Location = new System.Drawing.Point(132, 184);
             this.btnAssignPrinter.Name = "btnAssignPrinter";
-            this.btnAssignPrinter.Size = new System.Drawing.Size(201, 157);
+            this.btnAssignPrinter.Size = new System.Drawing.Size(176, 157);
             this.btnAssignPrinter.TabIndex = 5;
             this.btnAssignPrinter.Text = "تعيين الطابعة";
             this.btnAssignPrinter.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -595,9 +595,9 @@ namespace YES.Forms
             this.btnLogOff.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogOff.ImageKey = "logoff.png";
             this.btnLogOff.ImageList = this.imageList2;
-            this.btnLogOff.Location = new System.Drawing.Point(370, 184);
+            this.btnLogOff.Location = new System.Drawing.Point(324, 184);
             this.btnLogOff.Name = "btnLogOff";
-            this.btnLogOff.Size = new System.Drawing.Size(201, 157);
+            this.btnLogOff.Size = new System.Drawing.Size(176, 157);
             this.btnLogOff.TabIndex = 4;
             this.btnLogOff.Text = "تسجيل خروج";
             this.btnLogOff.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -613,9 +613,9 @@ namespace YES.Forms
             this.btnRoleItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRoleItem.ImageKey = "authorized.png";
             this.btnRoleItem.ImageList = this.imageList2;
-            this.btnRoleItem.Location = new System.Drawing.Point(608, 184);
+            this.btnRoleItem.Location = new System.Drawing.Point(532, 184);
             this.btnRoleItem.Name = "btnRoleItem";
-            this.btnRoleItem.Size = new System.Drawing.Size(201, 157);
+            this.btnRoleItem.Size = new System.Drawing.Size(176, 157);
             this.btnRoleItem.TabIndex = 3;
             this.btnRoleItem.Text = "منح صلاحيات";
             this.btnRoleItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -631,9 +631,9 @@ namespace YES.Forms
             this.btn_st_ChangePassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_st_ChangePassword.ImageKey = "changepass2.png";
             this.btn_st_ChangePassword.ImageList = this.imageList2;
-            this.btn_st_ChangePassword.Location = new System.Drawing.Point(146, 3);
+            this.btn_st_ChangePassword.Location = new System.Drawing.Point(128, 3);
             this.btn_st_ChangePassword.Name = "btn_st_ChangePassword";
-            this.btn_st_ChangePassword.Size = new System.Drawing.Size(201, 157);
+            this.btn_st_ChangePassword.Size = new System.Drawing.Size(176, 157);
             this.btn_st_ChangePassword.TabIndex = 2;
             this.btn_st_ChangePassword.Text = "تغيير كلمة المرور";
             this.btn_st_ChangePassword.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -649,9 +649,9 @@ namespace YES.Forms
             this.btn_st_UserQuery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_st_UserQuery.ImageKey = "user_query.png";
             this.btn_st_UserQuery.ImageList = this.imageList2;
-            this.btn_st_UserQuery.Location = new System.Drawing.Point(370, 3);
+            this.btn_st_UserQuery.Location = new System.Drawing.Point(324, 3);
             this.btn_st_UserQuery.Name = "btn_st_UserQuery";
-            this.btn_st_UserQuery.Size = new System.Drawing.Size(201, 157);
+            this.btn_st_UserQuery.Size = new System.Drawing.Size(176, 157);
             this.btn_st_UserQuery.TabIndex = 1;
             this.btn_st_UserQuery.Text = "الاستعلام عن المستخدمين";
             this.btn_st_UserQuery.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -667,9 +667,9 @@ namespace YES.Forms
             this.btn_st_users.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_st_users.ImageKey = "user_new.png";
             this.btn_st_users.ImageList = this.imageList2;
-            this.btn_st_users.Location = new System.Drawing.Point(594, 3);
+            this.btn_st_users.Location = new System.Drawing.Point(520, 3);
             this.btn_st_users.Name = "btn_st_users";
-            this.btn_st_users.Size = new System.Drawing.Size(201, 157);
+            this.btn_st_users.Size = new System.Drawing.Size(176, 157);
             this.btn_st_users.TabIndex = 0;
             this.btn_st_users.Text = "انشاء مستخدم جديد";
             this.btn_st_users.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -687,9 +687,9 @@ namespace YES.Forms
             this.pnl_info.Controls.Add(this.btn_info_canEmployee);
             this.pnl_info.Controls.Add(this.btn_info_canSingle);
             this.pnl_info.Controls.Add(this.btn_info_attendance);
-            this.pnl_info.Location = new System.Drawing.Point(8, 256);
+            this.pnl_info.Location = new System.Drawing.Point(7, 256);
             this.pnl_info.Name = "pnl_info";
-            this.pnl_info.Size = new System.Drawing.Size(837, 21);
+            this.pnl_info.Size = new System.Drawing.Size(733, 21);
             this.pnl_info.TabIndex = 11;
             // 
             // btn_info_resultCompany
@@ -701,9 +701,9 @@ namespace YES.Forms
             this.btn_info_resultCompany.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_info_resultCompany.ImageKey = "voteresult_company.png";
             this.btn_info_resultCompany.ImageList = this.imageList2;
-            this.btn_info_resultCompany.Location = new System.Drawing.Point(74, 337);
+            this.btn_info_resultCompany.Location = new System.Drawing.Point(65, 337);
             this.btn_info_resultCompany.Name = "btn_info_resultCompany";
-            this.btn_info_resultCompany.Size = new System.Drawing.Size(210, 159);
+            this.btn_info_resultCompany.Size = new System.Drawing.Size(184, 159);
             this.btn_info_resultCompany.TabIndex = 6;
             this.btn_info_resultCompany.Text = "عرض نتائج التصويت فئة الشركات";
             this.btn_info_resultCompany.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -718,9 +718,9 @@ namespace YES.Forms
             this.btn_info_resultEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_info_resultEmployee.ImageKey = "voteresult_employee.png";
             this.btn_info_resultEmployee.ImageList = this.imageList2;
-            this.btn_info_resultEmployee.Location = new System.Drawing.Point(352, 337);
+            this.btn_info_resultEmployee.Location = new System.Drawing.Point(308, 337);
             this.btn_info_resultEmployee.Name = "btn_info_resultEmployee";
-            this.btn_info_resultEmployee.Size = new System.Drawing.Size(210, 159);
+            this.btn_info_resultEmployee.Size = new System.Drawing.Size(184, 159);
             this.btn_info_resultEmployee.TabIndex = 5;
             this.btn_info_resultEmployee.Text = "عرض نتائج التصويت فئة الموظفين";
             this.btn_info_resultEmployee.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -735,9 +735,9 @@ namespace YES.Forms
             this.btn_info_resultSingle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_info_resultSingle.ImageKey = "voteresult_single.png";
             this.btn_info_resultSingle.ImageList = this.imageList2;
-            this.btn_info_resultSingle.Location = new System.Drawing.Point(605, 337);
+            this.btn_info_resultSingle.Location = new System.Drawing.Point(529, 337);
             this.btn_info_resultSingle.Name = "btn_info_resultSingle";
-            this.btn_info_resultSingle.Size = new System.Drawing.Size(210, 159);
+            this.btn_info_resultSingle.Size = new System.Drawing.Size(184, 159);
             this.btn_info_resultSingle.TabIndex = 4;
             this.btn_info_resultSingle.Text = "عرض نتائج التصويت فئة الافراد";
             this.btn_info_resultSingle.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -752,9 +752,9 @@ namespace YES.Forms
             this.btn_info_canCompany.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_info_canCompany.ImageKey = "show_can_company.png";
             this.btn_info_canCompany.ImageList = this.imageList2;
-            this.btn_info_canCompany.Location = new System.Drawing.Point(74, 171);
+            this.btn_info_canCompany.Location = new System.Drawing.Point(65, 171);
             this.btn_info_canCompany.Name = "btn_info_canCompany";
-            this.btn_info_canCompany.Size = new System.Drawing.Size(210, 159);
+            this.btn_info_canCompany.Size = new System.Drawing.Size(184, 159);
             this.btn_info_canCompany.TabIndex = 3;
             this.btn_info_canCompany.Text = "عرض مرشحين فئة الشركات";
             this.btn_info_canCompany.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -770,9 +770,9 @@ namespace YES.Forms
             this.btn_info_canEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_info_canEmployee.ImageKey = "show_can_employee.png";
             this.btn_info_canEmployee.ImageList = this.imageList2;
-            this.btn_info_canEmployee.Location = new System.Drawing.Point(334, 171);
+            this.btn_info_canEmployee.Location = new System.Drawing.Point(292, 171);
             this.btn_info_canEmployee.Name = "btn_info_canEmployee";
-            this.btn_info_canEmployee.Size = new System.Drawing.Size(210, 159);
+            this.btn_info_canEmployee.Size = new System.Drawing.Size(184, 159);
             this.btn_info_canEmployee.TabIndex = 2;
             this.btn_info_canEmployee.Text = "عرض مرشحين فئة الموظفين";
             this.btn_info_canEmployee.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -788,9 +788,9 @@ namespace YES.Forms
             this.btn_info_canSingle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_info_canSingle.ImageKey = "show_can_single.png";
             this.btn_info_canSingle.ImageList = this.imageList2;
-            this.btn_info_canSingle.Location = new System.Drawing.Point(594, 171);
+            this.btn_info_canSingle.Location = new System.Drawing.Point(520, 171);
             this.btn_info_canSingle.Name = "btn_info_canSingle";
-            this.btn_info_canSingle.Size = new System.Drawing.Size(210, 159);
+            this.btn_info_canSingle.Size = new System.Drawing.Size(184, 159);
             this.btn_info_canSingle.TabIndex = 1;
             this.btn_info_canSingle.Text = "عرض مرشحين فئة الافراد";
             this.btn_info_canSingle.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -806,9 +806,9 @@ namespace YES.Forms
             this.btn_info_attendance.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_info_attendance.ImageKey = "attendance2.png";
             this.btn_info_attendance.ImageList = this.imageList2;
-            this.btn_info_attendance.Location = new System.Drawing.Point(594, -5);
+            this.btn_info_attendance.Location = new System.Drawing.Point(520, -5);
             this.btn_info_attendance.Name = "btn_info_attendance";
-            this.btn_info_attendance.Size = new System.Drawing.Size(201, 157);
+            this.btn_info_attendance.Size = new System.Drawing.Size(176, 157);
             this.btn_info_attendance.TabIndex = 0;
             this.btn_info_attendance.Text = "عرض نسبة الحضور";
             this.btn_info_attendance.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -822,9 +822,9 @@ namespace YES.Forms
             this.pnl_collect.Controls.Add(this.btn_col_company);
             this.pnl_collect.Controls.Add(this.btn_col_emplyee);
             this.pnl_collect.Controls.Add(this.btn_col_single);
-            this.pnl_collect.Location = new System.Drawing.Point(9, 171);
+            this.pnl_collect.Location = new System.Drawing.Point(8, 171);
             this.pnl_collect.Name = "pnl_collect";
-            this.pnl_collect.Size = new System.Drawing.Size(837, 26);
+            this.pnl_collect.Size = new System.Drawing.Size(733, 26);
             this.pnl_collect.TabIndex = 10;
             // 
             // btn_col_company
@@ -838,7 +838,7 @@ namespace YES.Forms
             this.btn_col_company.ImageList = this.imageList2;
             this.btn_col_company.Location = new System.Drawing.Point(3, 22);
             this.btn_col_company.Name = "btn_col_company";
-            this.btn_col_company.Size = new System.Drawing.Size(259, 179);
+            this.btn_col_company.Size = new System.Drawing.Size(227, 179);
             this.btn_col_company.TabIndex = 2;
             this.btn_col_company.Text = "فرز أصوات فئة الشركات";
             this.btn_col_company.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -853,9 +853,9 @@ namespace YES.Forms
             this.btn_col_emplyee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_col_emplyee.ImageKey = "collect_emplyee.png";
             this.btn_col_emplyee.ImageList = this.imageList2;
-            this.btn_col_emplyee.Location = new System.Drawing.Point(286, 22);
+            this.btn_col_emplyee.Location = new System.Drawing.Point(250, 22);
             this.btn_col_emplyee.Name = "btn_col_emplyee";
-            this.btn_col_emplyee.Size = new System.Drawing.Size(259, 179);
+            this.btn_col_emplyee.Size = new System.Drawing.Size(227, 179);
             this.btn_col_emplyee.TabIndex = 1;
             this.btn_col_emplyee.Text = "فرز أصوات فئة الموظفين";
             this.btn_col_emplyee.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -870,9 +870,9 @@ namespace YES.Forms
             this.btn_col_single.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_col_single.ImageKey = "collect_single.png";
             this.btn_col_single.ImageList = this.imageList2;
-            this.btn_col_single.Location = new System.Drawing.Point(554, 22);
+            this.btn_col_single.Location = new System.Drawing.Point(485, 22);
             this.btn_col_single.Name = "btn_col_single";
-            this.btn_col_single.Size = new System.Drawing.Size(259, 179);
+            this.btn_col_single.Size = new System.Drawing.Size(227, 179);
             this.btn_col_single.TabIndex = 0;
             this.btn_col_single.Text = "فرز أصوات فئة الأفراد";
             this.btn_col_single.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -885,9 +885,9 @@ namespace YES.Forms
             this.pnl_vote.Controls.Add(this.btn_vote_reprint);
             this.pnl_vote.Controls.Add(this.btn_vote_query);
             this.pnl_vote.Controls.Add(this.btn_vote_print);
-            this.pnl_vote.Location = new System.Drawing.Point(9, 141);
+            this.pnl_vote.Location = new System.Drawing.Point(8, 141);
             this.pnl_vote.Name = "pnl_vote";
-            this.pnl_vote.Size = new System.Drawing.Size(837, 21);
+            this.pnl_vote.Size = new System.Drawing.Size(733, 21);
             this.pnl_vote.TabIndex = 9;
             // 
             // btn_vote_reprint
@@ -899,9 +899,9 @@ namespace YES.Forms
             this.btn_vote_reprint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_vote_reprint.ImageKey = "reprint4.png";
             this.btn_vote_reprint.ImageList = this.imageList2;
-            this.btn_vote_reprint.Location = new System.Drawing.Point(536, 218);
+            this.btn_vote_reprint.Location = new System.Drawing.Point(469, 218);
             this.btn_vote_reprint.Name = "btn_vote_reprint";
-            this.btn_vote_reprint.Size = new System.Drawing.Size(259, 179);
+            this.btn_vote_reprint.Size = new System.Drawing.Size(227, 179);
             this.btn_vote_reprint.TabIndex = 2;
             this.btn_vote_reprint.Text = "إعادة طباعة ورقة الاقتراع";
             this.btn_vote_reprint.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -917,9 +917,9 @@ namespace YES.Forms
             this.btn_vote_query.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_vote_query.ImageKey = "search9.png";
             this.btn_vote_query.ImageList = this.imageList2;
-            this.btn_vote_query.Location = new System.Drawing.Point(194, 22);
+            this.btn_vote_query.Location = new System.Drawing.Point(170, 22);
             this.btn_vote_query.Name = "btn_vote_query";
-            this.btn_vote_query.Size = new System.Drawing.Size(259, 179);
+            this.btn_vote_query.Size = new System.Drawing.Size(227, 179);
             this.btn_vote_query.TabIndex = 1;
             this.btn_vote_query.Text = "الاستعلام عن ورقة الاقتراع";
             this.btn_vote_query.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -935,9 +935,9 @@ namespace YES.Forms
             this.btn_vote_print.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_vote_print.ImageKey = "print_vote.png";
             this.btn_vote_print.ImageList = this.imageList2;
-            this.btn_vote_print.Location = new System.Drawing.Point(536, 22);
+            this.btn_vote_print.Location = new System.Drawing.Point(469, 22);
             this.btn_vote_print.Name = "btn_vote_print";
-            this.btn_vote_print.Size = new System.Drawing.Size(259, 179);
+            this.btn_vote_print.Size = new System.Drawing.Size(227, 179);
             this.btn_vote_print.TabIndex = 0;
             this.btn_vote_print.Text = "طباعة ورقة الاقتراع";
             this.btn_vote_print.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -952,9 +952,9 @@ namespace YES.Forms
             this.pnl_candidate.Controls.Add(this.btn_can_approved);
             this.pnl_candidate.Controls.Add(this.btn_can_edit);
             this.pnl_candidate.Controls.Add(this.btn_can_new);
-            this.pnl_candidate.Location = new System.Drawing.Point(6, 97);
+            this.pnl_candidate.Location = new System.Drawing.Point(5, 97);
             this.pnl_candidate.Name = "pnl_candidate";
-            this.pnl_candidate.Size = new System.Drawing.Size(837, 33);
+            this.pnl_candidate.Size = new System.Drawing.Size(733, 33);
             this.pnl_candidate.TabIndex = 8;
             // 
             // btn_can_query
@@ -966,9 +966,9 @@ namespace YES.Forms
             this.btn_can_query.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_can_query.ImageKey = "search9.png";
             this.btn_can_query.ImageList = this.imageList2;
-            this.btn_can_query.Location = new System.Drawing.Point(648, 195);
+            this.btn_can_query.Location = new System.Drawing.Point(567, 195);
             this.btn_can_query.Name = "btn_can_query";
-            this.btn_can_query.Size = new System.Drawing.Size(174, 179);
+            this.btn_can_query.Size = new System.Drawing.Size(152, 179);
             this.btn_can_query.TabIndex = 3;
             this.btn_can_query.Text = "الاستعلام عن المرشحين";
             this.btn_can_query.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -984,9 +984,9 @@ namespace YES.Forms
             this.btn_can_approved.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_can_approved.ImageKey = "ApprovedCandidate.png";
             this.btn_can_approved.ImageList = this.imageList2;
-            this.btn_can_approved.Location = new System.Drawing.Point(71, -1);
+            this.btn_can_approved.Location = new System.Drawing.Point(62, -1);
             this.btn_can_approved.Name = "btn_can_approved";
-            this.btn_can_approved.Size = new System.Drawing.Size(174, 179);
+            this.btn_can_approved.Size = new System.Drawing.Size(152, 179);
             this.btn_can_approved.TabIndex = 2;
             this.btn_can_approved.Text = "إعتماد المرشحين";
             this.btn_can_approved.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -1002,9 +1002,9 @@ namespace YES.Forms
             this.btn_can_edit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_can_edit.ImageKey = "EditCandidate.png";
             this.btn_can_edit.ImageList = this.imageList2;
-            this.btn_can_edit.Location = new System.Drawing.Point(338, -1);
+            this.btn_can_edit.Location = new System.Drawing.Point(296, -1);
             this.btn_can_edit.Name = "btn_can_edit";
-            this.btn_can_edit.Size = new System.Drawing.Size(174, 179);
+            this.btn_can_edit.Size = new System.Drawing.Size(152, 179);
             this.btn_can_edit.TabIndex = 1;
             this.btn_can_edit.Text = "تعديل بيانات مرشح";
             this.btn_can_edit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -1020,9 +1020,9 @@ namespace YES.Forms
             this.btn_can_new.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_can_new.ImageKey = "NewCandidate.png";
             this.btn_can_new.ImageList = this.imageList2;
-            this.btn_can_new.Location = new System.Drawing.Point(648, 3);
+            this.btn_can_new.Location = new System.Drawing.Point(567, 3);
             this.btn_can_new.Name = "btn_can_new";
-            this.btn_can_new.Size = new System.Drawing.Size(174, 179);
+            this.btn_can_new.Size = new System.Drawing.Size(152, 179);
             this.btn_can_new.TabIndex = 0;
             this.btn_can_new.Text = "تسجيل مرشح جديد";
             this.btn_can_new.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -1034,9 +1034,9 @@ namespace YES.Forms
             this.pnl_HoldersInfo.BackColor = System.Drawing.Color.White;
             this.pnl_HoldersInfo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnl_HoldersInfo.Controls.Add(this.btn_rec_search);
-            this.pnl_HoldersInfo.Location = new System.Drawing.Point(6, 74);
+            this.pnl_HoldersInfo.Location = new System.Drawing.Point(5, 74);
             this.pnl_HoldersInfo.Name = "pnl_HoldersInfo";
-            this.pnl_HoldersInfo.Size = new System.Drawing.Size(837, 15);
+            this.pnl_HoldersInfo.Size = new System.Drawing.Size(733, 15);
             this.pnl_HoldersInfo.TabIndex = 7;
             // 
             // btn_rec_search
@@ -1048,9 +1048,9 @@ namespace YES.Forms
             this.btn_rec_search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_rec_search.ImageKey = "searchinlist.png";
             this.btn_rec_search.ImageList = this.imageList2;
-            this.btn_rec_search.Location = new System.Drawing.Point(302, 24);
+            this.btn_rec_search.Location = new System.Drawing.Point(264, 24);
             this.btn_rec_search.Name = "btn_rec_search";
-            this.btn_rec_search.Size = new System.Drawing.Size(259, 179);
+            this.btn_rec_search.Size = new System.Drawing.Size(227, 179);
             this.btn_rec_search.TabIndex = 0;
             this.btn_rec_search.Text = "البحث في سجل المساهمين";
             this.btn_rec_search.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -1069,7 +1069,7 @@ namespace YES.Forms
             this.pnl_Delegate.Controls.Add(this.btn_Del_ReceptionSingle);
             this.pnl_Delegate.Location = new System.Drawing.Point(3, 43);
             this.pnl_Delegate.Name = "pnl_Delegate";
-            this.pnl_Delegate.Size = new System.Drawing.Size(837, 24);
+            this.pnl_Delegate.Size = new System.Drawing.Size(733, 24);
             this.pnl_Delegate.TabIndex = 6;
             // 
             // btnDelApproved
@@ -1081,9 +1081,9 @@ namespace YES.Forms
             this.btnDelApproved.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelApproved.ImageKey = "stamp.png";
             this.btnDelApproved.ImageList = this.imageList2;
-            this.btnDelApproved.Location = new System.Drawing.Point(29, 211);
+            this.btnDelApproved.Location = new System.Drawing.Point(25, 211);
             this.btnDelApproved.Name = "btnDelApproved";
-            this.btnDelApproved.Size = new System.Drawing.Size(226, 155);
+            this.btnDelApproved.Size = new System.Drawing.Size(198, 155);
             this.btnDelApproved.TabIndex = 5;
             this.btnDelApproved.Text = "إعتماد التوكيلات";
             this.btnDelApproved.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -1099,9 +1099,9 @@ namespace YES.Forms
             this.btn_Del_ReceptionFounder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Del_ReceptionFounder.ImageKey = "delegationfounder.png";
             this.btn_Del_ReceptionFounder.ImageList = this.imageList2;
-            this.btn_Del_ReceptionFounder.Location = new System.Drawing.Point(621, 205);
+            this.btn_Del_ReceptionFounder.Location = new System.Drawing.Point(543, 205);
             this.btn_Del_ReceptionFounder.Name = "btn_Del_ReceptionFounder";
-            this.btn_Del_ReceptionFounder.Size = new System.Drawing.Size(206, 155);
+            this.btn_Del_ReceptionFounder.Size = new System.Drawing.Size(180, 155);
             this.btn_Del_ReceptionFounder.TabIndex = 4;
             this.btn_Del_ReceptionFounder.Text = "استقبال التوكيلات للمؤسسين";
             this.btn_Del_ReceptionFounder.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -1117,9 +1117,9 @@ namespace YES.Forms
             this.btn_Del_ReceptionCompany.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Del_ReceptionCompany.ImageKey = "delegationcompany.png";
             this.btn_Del_ReceptionCompany.ImageList = this.imageList2;
-            this.btn_Del_ReceptionCompany.Location = new System.Drawing.Point(29, 29);
+            this.btn_Del_ReceptionCompany.Location = new System.Drawing.Point(25, 29);
             this.btn_Del_ReceptionCompany.Name = "btn_Del_ReceptionCompany";
-            this.btn_Del_ReceptionCompany.Size = new System.Drawing.Size(206, 155);
+            this.btn_Del_ReceptionCompany.Size = new System.Drawing.Size(180, 155);
             this.btn_Del_ReceptionCompany.TabIndex = 3;
             this.btn_Del_ReceptionCompany.Text = "استقبال التوكيلات للشركات";
             this.btn_Del_ReceptionCompany.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -1135,9 +1135,9 @@ namespace YES.Forms
             this.btn_Del_ReceptionEmployee.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Del_ReceptionEmployee.ImageKey = "delegationemployee.png";
             this.btn_Del_ReceptionEmployee.ImageList = this.imageList2;
-            this.btn_Del_ReceptionEmployee.Location = new System.Drawing.Point(317, 29);
+            this.btn_Del_ReceptionEmployee.Location = new System.Drawing.Point(277, 29);
             this.btn_Del_ReceptionEmployee.Name = "btn_Del_ReceptionEmployee";
-            this.btn_Del_ReceptionEmployee.Size = new System.Drawing.Size(206, 155);
+            this.btn_Del_ReceptionEmployee.Size = new System.Drawing.Size(180, 155);
             this.btn_Del_ReceptionEmployee.TabIndex = 2;
             this.btn_Del_ReceptionEmployee.Text = "استقبال التوكيلات للموظفين";
             this.btn_Del_ReceptionEmployee.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -1153,9 +1153,9 @@ namespace YES.Forms
             this.btn_Del_Query.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Del_Query.ImageKey = "search9.png";
             this.btn_Del_Query.ImageList = this.imageList2;
-            this.btn_Del_Query.Location = new System.Drawing.Point(317, 211);
+            this.btn_Del_Query.Location = new System.Drawing.Point(277, 211);
             this.btn_Del_Query.Name = "btn_Del_Query";
-            this.btn_Del_Query.Size = new System.Drawing.Size(226, 155);
+            this.btn_Del_Query.Size = new System.Drawing.Size(198, 155);
             this.btn_Del_Query.TabIndex = 1;
             this.btn_Del_Query.Text = "الاستعلام عن التوكيلات";
             this.btn_Del_Query.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -1171,9 +1171,9 @@ namespace YES.Forms
             this.btn_Del_ReceptionSingle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Del_ReceptionSingle.ImageKey = "delegationsingle.png";
             this.btn_Del_ReceptionSingle.ImageList = this.imageList2;
-            this.btn_Del_ReceptionSingle.Location = new System.Drawing.Point(638, 19);
+            this.btn_Del_ReceptionSingle.Location = new System.Drawing.Point(558, 19);
             this.btn_Del_ReceptionSingle.Name = "btn_Del_ReceptionSingle";
-            this.btn_Del_ReceptionSingle.Size = new System.Drawing.Size(190, 155);
+            this.btn_Del_ReceptionSingle.Size = new System.Drawing.Size(166, 155);
             this.btn_Del_ReceptionSingle.TabIndex = 0;
             this.btn_Del_ReceptionSingle.Text = "استقبال التوكيلات للأفراد";
             this.btn_Del_ReceptionSingle.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -1182,10 +1182,10 @@ namespace YES.Forms
             // 
             // frm_Dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Snow;
-            this.ClientSize = new System.Drawing.Size(1175, 609);
+            this.ClientSize = new System.Drawing.Size(1028, 609);
             this.ControlBox = false;
             this.Controls.Add(this.pnl_Container);
             this.Controls.Add(this.panel2);
